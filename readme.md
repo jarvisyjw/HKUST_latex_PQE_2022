@@ -6,3 +6,12 @@ There is no official template for a PQE report in Dept. ECE. Below, there are so
 
 Therefore, I modified the template from [Lei TAI's template of the thesis](https://github.com/onlytailei/HKUST_latex_thesis_2019). 
 
+## Usage
+
+The template contains a title page, abstract, three Chapters (Introduction, Proposed Research Direction and Preliminary Work) and one Appendix for the list of figures. And you can find them in the `chapter` folder and figures goes in to the `figures/pqe`.
+
+```shell
+    make # building the project
+    make clean # clean the by product of building the project
+    make distclean # clean the output pdf as well
+```
